@@ -11,6 +11,15 @@ A tool for processing image alpha channels with configurable thresholding.
 - Comprehensive error handling and logging
 - Command-line interface with configurable parameters
 
+## Visual Example
+
+![Comparison](./demo/example_comparison.png)
+
+**Key differences:**
+- Left: Gradient transparency (alpha 0→1)
+- Right: Binary transparency (alpha 0 or 1)
+- Notice the hard edge where alpha crosses 0.5 threshold
+
 ## Installation
 
 1. **Clone repository**
